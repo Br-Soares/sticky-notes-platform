@@ -1,0 +1,21 @@
+{
+  "name": "sticky-notes-api",
+  "version": "1.0.0",
+  "description": "Simple sticky notes REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "cluster": "node --experimental-vm-modules cluster.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
